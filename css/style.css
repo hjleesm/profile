@@ -7,3 +7,18 @@
 .align-left {
     text-align: left;
 }
+.img-profile {
+	max-width: 200px;
+}
+h1 {
+	font-weight: bold;
+}
+h2 {
+	font-weight: bold;
+}
+section {
+	margin: 2rem;
+}
+footer {
+	margin: 2rem;
+}

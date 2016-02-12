@@ -7,13 +7,54 @@
 		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet">
 		
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<div class="container align-center">
-			<h1><strong>Jay Lee</strong></h1>
+			<div class="row">
+				<div class="col-md-5">
+					<section>
+						<img src="img/jay.jpg" class="img-circle img-profile" alt="photo">
+					</section>
+					<section>
+						<h1>Jay Lee</h1>
+						Jay Lee, Front End Developer<br><br>
+						My name is 이현진, or Jay Lee in English.<br>
+						Recently I interested in Software engineering, Front end development and Aglie methods.
+					</section>
+				</div>
+				<div class="col-md-7">
+					<section>
+						<h2>Career</h2>
+						2010, BS in Computer Science &amp; Engineering, Anyang University<br>
+						2013, MS in Department of Computer Science &amp; Information Engineering, Inha University<br>
+						2013. 02 ~ Working at M2Soft<br>
+					</section>
+					<section>
+						<h2>Projects</h2>
+						<a href="http://somangchurch.iptime.org:8000">Search CCM</a><br>
+						SVG Chart<br>
+						iOS demo app for reporting solution<br>
+					</section>
+					<section>
+						<h2>Contact</h2>
+						<a href="https://www.facebook.com/hjleesm">Facebook</a><br>
+						<a href="https://www.linkedin.com/in/hyunjin-lee-5b2a7110a">LinkedIn</a><br>
+						<a href="http://hjleesm.blog.me">Blog</a><br>
+						Email: <span id="m"></span><br>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<footer>
+					Copyright 2016. Jay Lee. All rights reserved.
+				</footer>
+			</div>
 		</div>
+		
+		<script>m="moc.revan@mseeljh".split("").reverse().join("");document.getElementById("m").innerHTML='<a href="mailto:'+m+'">'+m+'</a>';</script>
 	</body>
 </html>
