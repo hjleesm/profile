@@ -22,3 +22,7 @@ section {
 footer {
 	margin: 2rem;
 }
+header {
+	margin: 2rem;
+	font-style: italic;
+}
